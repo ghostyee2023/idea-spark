@@ -1,0 +1,6 @@
+interface:
+  display_name: "灵感火花"
+  short_description: "从资料和模糊问题里生成、验证并收敛小产品机会"
+  default_prompt: "Use $idea-spark to turn this source material into useful small product opportunities, then hand the strongest candidates to business-lens."
+policy:
+  allow_implicit_invocation: true
