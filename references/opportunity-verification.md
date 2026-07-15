@@ -1,6 +1,6 @@
 # Opportunity Verification
 
-Use this before handing candidates to Maker Forge.
+Use this before handing candidates to Business Lens.
 
 ## Three Checks
 
@@ -41,9 +41,9 @@ Rank by:
 
 Prefer a boring repeated workflow over an exciting vague idea.
 
-## Handoff Threshold
+## Business Lens Handoff Threshold
 
-Hand off to `maker-forge` only if the candidate has:
+Hand off to `business-lens` only if the candidate has:
 
 - named user
 - named scene
@@ -52,3 +52,5 @@ Hand off to `maker-forge` only if the candidate has:
 - concrete output
 - plausible 3-hour slice
 - clear uncertainty to test
+
+Normalize each shortlisted candidate with `references/opportunity-contract.md`. The buyer may remain `unknown`; Business Lens owns payer, budget, value capture, acquisition, and commercial decision.

@@ -22,21 +22,27 @@ rejected:
 
 ## Candidate Record
 
+Use the full contract in `references/opportunity-contract.md` for Top 3, saved, or machine-readable records. For working candidates, preserve at least:
+
 ```yaml
+schema_version: idea-opportunity/v1
 id:
 name:
 user:
+buyer: unknown
 scene:
 pain:
 current_workaround:
 input:
 output:
 product_shape:
-source_support:
-inference:
-uncertainty:
+source_support: []
+inferences: []
+uncertainties: []
+why_now:
+confidence: high | medium | low
 verification:
-  repeated_signal:
+  source_support:
   transferability:
   product_sharpness:
 status: candidate | verified | rejected

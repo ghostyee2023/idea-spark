@@ -13,6 +13,7 @@ source-pack/
   opportunity-candidates.md
   verified-opportunities.md
   rejected-opportunities.md
+  opportunity-records.json
   decision-cheatsheet.md
 ```
 
@@ -25,6 +26,7 @@ For OPC, do not create this directory unless the user explicitly asks to save or
 - `opportunity-candidates.md`: generated opportunities with candidate records.
 - `verified-opportunities.md`: candidates that passed verification and why.
 - `rejected-opportunities.md`: rejected ideas and failed checks.
+- `opportunity-records.json`: optional machine-readable Top 3 and rejected records that follow `references/opportunity-contract.md`.
 - `decision-cheatsheet.md`: compact decision rules for future ideation from this source.
 
 ## Compile Rules
@@ -34,6 +36,7 @@ For OPC, do not create this directory unless the user explicitly asks to save or
 - Convert frameworks into "when to use / input / output / failure mode".
 - Keep the master overview lean; put detail in supporting files.
 - Make every opportunity traceable to source support and inference.
+- Validate `opportunity-records.json` with `python scripts/validate_opportunity.py <file>` before treating the pack as reusable.
 
 ## Update Mode
 

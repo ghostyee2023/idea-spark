@@ -6,7 +6,7 @@ Use this before recommending which opportunity to build.
 
 Every serious shortlist should include:
 
-- should-build: why this candidate deserves evaluation by Maker Forge.
+- should-evaluate: why this candidate deserves commercial evaluation by Business Lens.
 - should-not-build: why a tempting adjacent candidate should be rejected.
 - edge-case: what situation would make the candidate weak or not worth building.
 
@@ -21,6 +21,7 @@ is the output concrete?
 does the first version fit one sitting?
 what adjacent idea could be confused with it?
 what would make this idea not worth building?
+what buyer or budget assumption remains unknown?
 ```
 
 ## Confusion Test
@@ -48,3 +49,5 @@ Pressure test:
 - edge case:
 - decision:
 ```
+
+Use `keep`, `reshape`, or `reject` here. Reserve `proceed`, `park`, and commercial decisions for Business Lens.
